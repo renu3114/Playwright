@@ -21,7 +21,6 @@ test("task one",async({page})=>{
     await expect(page).toHaveURL("https://automationexercise.com/view_cart")
 
     await page.getByRole("button",{name:"Proceed To Checkout"}).click()
-    await page.locator("")
 
 
     //how to verify address details
