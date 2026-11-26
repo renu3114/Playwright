@@ -6,7 +6,7 @@ let email = "hsbharat2103@gmail.com"
 let pwd = "Jaggu@2103"
 
 
-test("task5" , async({page})=>{
+test("task5 @regression" , async({page})=>{
     await page.goto(url);
     await page.locator("#userEmail").fill(email);
     await page.locator("#userPassword").fill(pwd) ;

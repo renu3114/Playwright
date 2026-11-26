@@ -1,6 +1,6 @@
 import{test,expect} from"@playwright/test"
 
-test("task one",async({page})=>{
+test("task one @smoke",async({page})=>{
 
     await page.goto("http://automationexercise.com")
     await page.locator("a[href$='/login']").click()

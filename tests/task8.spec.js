@@ -2,7 +2,7 @@ import {test,expect} from "@playwright/test"
 
 let url="https://testautomationpractice.blogspot.com/"
 
-test("playwright loc",async({page})=>{
+test("playwright loc @regression",async({page})=>{
 
     await page.getByPlaceholder("Enter Name").fill("Renuka M");
     await page.getByPlaceholder("Enter EMail").fill("renukamani1999@gmail.com");
